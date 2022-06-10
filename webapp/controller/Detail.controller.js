@@ -96,7 +96,7 @@ sap.ui.define([
 				oItemsBinding = oEvent.getSource().getBinding("items"),
 				aItemsContext;
 
-			// only update the counter if the length is final
+			// only update the counter if the length is final secondm 
 			if (oItemsBinding.isLengthFinal()) {
 				if (iTotalItems) {
 					sTitle = this.getResourceBundle().getText("detailLineItemTableHeadingCount", [iTotalItems]);
